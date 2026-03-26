@@ -1,5 +1,5 @@
-baseURL: "https://tuanhiep.github.io/tuanhiep.principal"
-title: "Tuan Hiep TRAN — System Design & AI Infra"
+baseURL: "https://tuanhiep.github.io/principal"
+title: "Tuan Hiep TRAN — The Principal Craft"
 languageCode: "en-us"
 theme: "PaperMod"
 pagination:
@@ -25,7 +25,7 @@ params:
   tocOpen: true
   author: "Hiep"
   homeInfoParams:
-    Title: "System Design & AI Infra"
+    Title: "Elite Engineering Bricks"
     Content: >
       Notes from real-world distributed systems and AI infrastructure.
   showLastMod: true              # <- bật hiển thị ngày update
