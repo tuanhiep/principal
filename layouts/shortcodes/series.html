@@ -1,0 +1,20 @@
+{{ if .Page.Params.series }}
+{{ $seriesName := index .Page.Params.series 0 }}
+{{ $seriesURL := urlize $seriesName }}
+{{ $seriesPages := (index .Site.Taxonomies.series $seriesURL).Pages.ByWeight }}
+
+<div style="background: var(--entry); padding: 1.5rem; border-radius: 8px; margin: 2rem 0; border-left: 4px solid var(--primary);">
+    <h4 style="margin-top: 0; margin-bottom: 1rem;">📚 Series: <a href="{{ .Site.BaseURL }}series/{{ $seriesURL }}">{{ $seriesName }}</a></h4>
+    <ol style="margin-bottom: 0; padding-left: 1.5rem;">
+        {{ range $seriesPages }}
+        <li style="margin-bottom: 0.5rem;">
+            {{ if eq .Permalink $.Page.Permalink }}
+            <strong>{{ .Title }} <em>(Bạn đang ở đây)</em></strong>
+            {{ else }}
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+            {{ endif }}
+        </li>
+        {{ end }}
+    </ol>
+</div>
+{{ end }}
