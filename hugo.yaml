@@ -2,16 +2,17 @@ baseURL: "https://tuanhiep.github.io/principal"
 title: "Tuan Hiep TRAN — The Principal Craft"
 languageCode: "en-us"
 theme: "PaperMod"
-pagination:
-  pagerSize: 10
-enableRobotsTXT: true
-enableGitInfo: true
 
 # 1. THÊM ĐOẠN NÀY ĐỂ KÍCH HOẠT SERIES
 taxonomies:
   category: categories
   tag: tags
   series: series
+
+pagination:
+  pagerSize: 10
+enableRobotsTXT: true
+enableGitInfo: true
 
 frontmatter:
   date:
