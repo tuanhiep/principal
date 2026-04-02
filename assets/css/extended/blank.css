@@ -1,0 +1,12 @@
+/* Force Mermaid diagrams to be responsive */
+.mermaid {
+    display: flex;
+    justify-content: center;
+    overflow-x: auto; /* Cho phép scroll ngang nếu sơ đồ quá to trên mobile */
+    margin: 2rem 0;
+}
+
+.mermaid svg {
+    max-width: 100% !important;
+    height: auto !important;
+}
