@@ -9,7 +9,7 @@
         {{ range $seriesPages }}
         <li style="margin-bottom: 0.5rem;">
             {{ if eq .Permalink $.Page.Permalink }}
-            <strong>{{ .Title }} <em>(Bạn đang ở đây)</em></strong>
+            <strong>{{ .Title }} <em>(You are being here)</em></strong>
             {{ else }}
             <a href="{{ .Permalink }}">{{ .Title }}</a>
             {{ end }}
