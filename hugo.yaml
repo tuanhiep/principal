@@ -7,6 +7,12 @@ pagination:
 enableRobotsTXT: true
 enableGitInfo: true
 
+# 1. THÊM ĐOẠN NÀY ĐỂ KÍCH HOẠT SERIES
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
+
 frontmatter:
   date:
     - date
@@ -39,9 +45,13 @@ menu:
     - name: Posts
       url: /posts/
       weight: 1
+    # 2. THÊM MENU NÀY VÀO TRANG CHỦ
+    - name: Series
+      url: /series/
+      weight: 2
     - name: Tags
       url: /tags/
-      weight: 2
+      weight: 3
 
 markup:
   highlight:
