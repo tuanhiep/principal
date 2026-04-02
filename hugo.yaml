@@ -43,14 +43,17 @@ params:
 
 menu:
   main:
-    - name: Posts
+    - identifier: posts
+      name: Posts
       url: /posts/
       weight: 1
     # 2. THÊM MENU NÀY VÀO TRANG CHỦ
-    - name: Series
+    - identifier: series
+      name: Series
       url: /series/
       weight: 2
-    - name: Tags
+    - identifier: tags
+      name: Tags
       url: /tags/
       weight: 3
 
