@@ -34,7 +34,7 @@ params:
   homeInfoParams:
     Title: "The Principal Craft"
     Content: >
-      Notes from real-world Principal Engineering and Software Architecture.
+      Field notes on software architecture, distributed systems, and production engineering.
   showLastMod: true              # <- bật hiển thị ngày update
   # lastModFormat: "Jan 2, 2006" # (tuỳ chọn format ngày)
   mermaid:
