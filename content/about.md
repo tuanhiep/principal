@@ -21,6 +21,14 @@ showToc: false
   </div>
 </section>
 
+<section class="about-crosslink" aria-label="Reading map">
+  <p>
+    <strong>Reading map:</strong>
+    for broader system-design patterns and reusable architecture bricks, start with
+    <a href="https://tuanhiep.github.io/" rel="noopener noreferrer">System Design & AI Infra</a>.
+  </p>
+</section>
+
 <section class="about-grid" aria-label="Focus areas">
   <article>
     <h2><span aria-hidden="true">🏛️</span> Architecture Strategy</h2>
