@@ -8,8 +8,7 @@ showToc: false
 ---
 
 <section class="about-hero">
-  <div class="about-mark" aria-hidden="true">🪷</div>
-  <p class="about-kicker">The Principal Craft</p>
+  <p class="about-kicker"><span aria-hidden="true">🪷</span> The Principal Craft</p>
   <h1>Tuan Hiep TRAN</h1>
   <p class="about-lede">
     I write about principal-level engineering: architecture judgment, operating models,
@@ -24,18 +23,15 @@ showToc: false
 
 <section class="about-grid" aria-label="Focus areas">
   <article>
-    <span aria-hidden="true">🏛️</span>
-    <h2>Architecture Strategy</h2>
+    <h2><span aria-hidden="true">🏛️</span> Architecture Strategy</h2>
     <p>How to shape systems through constraints, boundaries, ownership, and long-lived decisions.</p>
   </article>
   <article>
-    <span aria-hidden="true">🧭</span>
-    <h2>Engineering Judgment</h2>
+    <h2><span aria-hidden="true">🧭</span> Engineering Judgment</h2>
     <p>Decision frameworks for ambiguous trade-offs where correctness, velocity, and operability collide.</p>
   </article>
   <article>
-    <span aria-hidden="true">🪞</span>
-    <h2>Production Reflection</h2>
+    <h2><span aria-hidden="true">🪞</span> Production Reflection</h2>
     <p>Notes on failure modes, rollback paths, governance, observability, and the cost of hidden coupling.</p>
   </article>
 </section>
